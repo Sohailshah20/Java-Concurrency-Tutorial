@@ -4,7 +4,7 @@ import java.time.Duration;
 import java.util.Scanner;
 
 public class DaemonThread {
-    /**
+    /*
      *There are two kinds of threads which based on priority.
      * 1. Low priority threads - Daemon threads
      * 2. High priority threads - User threads
@@ -13,7 +13,7 @@ public class DaemonThread {
      */
 
     public static void main(String[] args) {
-        /**
+        /*
          * Run this method. Everytime you enter a number a new thread is created which goes into 20 sec sleep.
          * Try entering a few numbers and enter 0. When you enter zer, the loop is supposed to break and the
          * program should terminate. But instead the program continues to run until all the threads

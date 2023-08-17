@@ -1,0 +1,18 @@
+States of a thread
+
+1. New state - A new instance of a thread is created
+
+2. Runnable State - When the start method is called on a thread,it enters a runnable state.
+    It technically enters the run state but when the thread is going to start running is
+    decided by the thread scheduler of the underlying operating system. When the thread scheduler
+    have resources to for the thread the thread actually starts running.
+
+3. Running State - In this state the thread is in running
+
+4. Blocked/Waiting State - The thread is blocked by monitor lock or other thread or waiting for a resource.
+
+5. Terminated State - The thread is in terminated state when it stops running.
+
+NOTE:
+Remember the JVM does not control the execution of the threads.
+It’s managed the underlying operating systems Thread Scheduler. The JVM only acts as bridge.
